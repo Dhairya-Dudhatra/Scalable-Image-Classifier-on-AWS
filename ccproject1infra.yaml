@@ -1,0 +1,10 @@
+Resources:
+    webtierInstance:
+        Type: "AWS::EC2::Instance"
+        Properties:
+            ImageId: ami-0557a15b87f6559cf
+            InstanceType: t2.micro
+            SecurityGroupIds:
+                - sg-072f8dd52b25ebaab
+            SubnetId: 	subnet-085ab54d3ac1ae42e
+    
